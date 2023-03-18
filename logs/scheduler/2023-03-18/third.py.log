@@ -1,0 +1,203 @@
+[2023-03-18T00:00:06.362+0000] {processor.py:153} INFO - Started process (PID=8056) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:00:06.367+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:00:06.372+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:06.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:00:06.551+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:00:06.688+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:06.687+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:00:06.762+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:06.761+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:00:06.791+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.451 seconds
+[2023-03-18T00:00:37.452+0000] {processor.py:153} INFO - Started process (PID=8158) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:00:37.457+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:00:37.463+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:37.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:00:37.525+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:00:37.597+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:37.597+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:00:37.659+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:00:37.659+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:00:37.696+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.261 seconds
+[2023-03-18T00:01:08.040+0000] {processor.py:153} INFO - Started process (PID=8241) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:01:08.051+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:01:08.055+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:08.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:01:08.172+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:01:08.292+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:08.292+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:01:08.406+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:08.405+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:01:08.487+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.466 seconds
+[2023-03-18T00:01:39.164+0000] {processor.py:153} INFO - Started process (PID=8323) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:01:39.168+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:01:39.173+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:39.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:01:39.403+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:01:39.578+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:39.577+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:01:39.711+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:01:39.710+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:01:39.791+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.674 seconds
+[2023-03-18T00:02:10.294+0000] {processor.py:153} INFO - Started process (PID=8405) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:02:10.303+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:02:10.313+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:10.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:02:10.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:02:10.657+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:10.657+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:02:10.795+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:10.794+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:02:10.865+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.592 seconds
+[2023-03-18T00:02:41.082+0000] {processor.py:153} INFO - Started process (PID=8476) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:02:41.085+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:02:41.088+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:41.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:02:41.208+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:02:41.264+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:41.264+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:02:41.302+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:02:41.302+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:02:41.343+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.271 seconds
+[2023-03-18T00:03:11.781+0000] {processor.py:153} INFO - Started process (PID=8558) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:03:11.783+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:03:11.785+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:11.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:03:11.930+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:03:12.038+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:12.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:03:12.152+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:12.152+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:03:12.246+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.480 seconds
+[2023-03-18T00:03:42.813+0000] {processor.py:153} INFO - Started process (PID=8651) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:03:42.814+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:03:42.816+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:42.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:03:42.853+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:03:42.882+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:42.881+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:03:42.917+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:03:42.916+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:03:42.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.134 seconds
+[2023-03-18T00:04:14.030+0000] {processor.py:153} INFO - Started process (PID=8733) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:04:14.035+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:04:14.040+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:14.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:04:14.196+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:04:14.242+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:14.242+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:04:14.278+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:14.278+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:04:14.312+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.336 seconds
+[2023-03-18T00:04:44.568+0000] {processor.py:153} INFO - Started process (PID=8815) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:04:44.573+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:04:44.578+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:44.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:04:44.733+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:04:44.789+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:44.789+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:04:44.821+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:04:44.821+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:04:44.844+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.291 seconds
+[2023-03-18T00:05:15.011+0000] {processor.py:153} INFO - Started process (PID=8918) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:05:15.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:05:15.020+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:15.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:05:15.113+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:05:15.198+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:15.198+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:05:15.279+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:15.278+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:05:15.327+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.333 seconds
+[2023-03-18T00:05:46.376+0000] {processor.py:153} INFO - Started process (PID=9000) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:05:46.378+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:05:46.379+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:46.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:05:46.436+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:05:46.492+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:46.491+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:05:46.544+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:05:46.543+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:05:46.589+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.219 seconds
+[2023-03-18T00:06:17.558+0000] {processor.py:153} INFO - Started process (PID=9082) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:06:17.563+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:06:17.568+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:17.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:06:17.681+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:06:17.722+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:17.722+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:06:17.756+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:17.756+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:06:17.792+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.250 seconds
+[2023-03-18T00:06:48.207+0000] {processor.py:153} INFO - Started process (PID=9164) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:06:48.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:06:48.218+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:48.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:06:48.393+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:06:48.436+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:48.436+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:06:48.468+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:06:48.468+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:06:48.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.318 seconds
+[2023-03-18T00:07:19.379+0000] {processor.py:153} INFO - Started process (PID=9256) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:07:19.388+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:07:19.392+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:19.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:07:19.501+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:07:19.722+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:19.722+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:07:19.842+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:19.841+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:07:19.904+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.551 seconds
+[2023-03-18T00:07:50.180+0000] {processor.py:153} INFO - Started process (PID=9350) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:07:50.182+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:07:50.183+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:50.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:07:50.230+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:07:50.259+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:50.258+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:07:50.298+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:07:50.297+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:07:50.331+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.155 seconds
+[2023-03-18T00:08:20.789+0000] {processor.py:153} INFO - Started process (PID=9432) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:08:20.791+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:08:20.794+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:20.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:08:20.841+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:08:20.875+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:20.875+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:08:20.903+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:20.903+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:08:20.925+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.144 seconds
+[2023-03-18T00:08:51.338+0000] {processor.py:153} INFO - Started process (PID=9514) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:08:51.340+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:08:51.342+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:51.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:08:51.429+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:08:51.480+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:51.480+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:08:51.563+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:08:51.563+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:08:51.612+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.281 seconds
+[2023-03-18T00:09:22.138+0000] {processor.py:153} INFO - Started process (PID=9596) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:09:22.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:09:22.143+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:22.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:09:22.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:09:22.317+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:22.317+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:09:22.367+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:22.367+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:09:22.427+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.298 seconds
+[2023-03-18T00:09:53.197+0000] {processor.py:153} INFO - Started process (PID=9698) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:09:53.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:09:53.200+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:53.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:09:53.255+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:09:53.299+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:53.299+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:09:53.350+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:09:53.350+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:09:53.390+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.197 seconds
+[2023-03-18T00:10:24.049+0000] {processor.py:153} INFO - Started process (PID=9780) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:10:24.051+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:10:24.052+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:24.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:10:24.126+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:10:24.220+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:24.220+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:10:24.271+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:24.271+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:10:24.306+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.265 seconds
+[2023-03-18T00:10:55.199+0000] {processor.py:153} INFO - Started process (PID=9862) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:10:55.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:10:55.209+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:55.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:10:55.414+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:10:55.615+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:55.615+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:10:55.769+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:10:55.768+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:10:55.873+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.688 seconds
+[2023-03-18T00:11:26.771+0000] {processor.py:153} INFO - Started process (PID=9951) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:11:26.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:11:26.780+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:26.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:11:26.871+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:11:26.946+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:26.946+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:11:27.008+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:27.007+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:11:27.050+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.287 seconds
+[2023-03-18T00:11:57.263+0000] {processor.py:153} INFO - Started process (PID=10046) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:11:57.264+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:11:57.266+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:57.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:11:57.302+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:11:57.326+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:57.326+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:11:57.353+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:11:57.353+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:11:57.374+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.117 seconds
+[2023-03-18T00:12:28.321+0000] {processor.py:153} INFO - Started process (PID=10129) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:12:28.323+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:12:28.325+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:28.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:12:28.389+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:12:28.428+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:28.428+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:12:28.471+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:28.471+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:12:28.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.204 seconds
+[2023-03-18T00:12:58.749+0000] {processor.py:153} INFO - Started process (PID=10211) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:12:58.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:12:58.756+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:58.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:12:58.811+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:12:58.856+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:58.856+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:12:58.899+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:12:58.899+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:12:58.921+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.184 seconds
+[2023-03-18T00:13:29.311+0000] {processor.py:153} INFO - Started process (PID=10293) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:13:29.313+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:13:29.314+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:13:29.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:13:29.366+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:13:29.406+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:13:29.405+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:13:29.459+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:13:29.459+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:13:29.498+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.196 seconds
+[2023-03-18T00:14:00.251+0000] {processor.py:153} INFO - Started process (PID=10395) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:14:00.255+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:14:00.261+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:00.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:14:00.377+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:14:00.480+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:00.480+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:14:00.565+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:00.565+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:14:00.615+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.371 seconds
+[2023-03-18T00:14:30.686+0000] {processor.py:153} INFO - Started process (PID=10477) to work on /opt/airflow/dags/third.py
+[2023-03-18T00:14:30.687+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/third.py for tasks to queue
+[2023-03-18T00:14:30.688+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:30.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/third.py
+[2023-03-18T00:14:30.733+0000] {processor.py:753} INFO - DAG(s) dict_keys(['market_data_alphavantage_dag']) retrieved from /opt/airflow/dags/third.py
+[2023-03-18T00:14:30.764+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:30.764+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T00:14:30.796+0000] {logging_mixin.py:137} INFO - [2023-03-18T00:14:30.796+0000] {dag.py:3441} INFO - Setting next_dagrun for market_data_alphavantage_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T00:14:30.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/third.py took 0.149 seconds

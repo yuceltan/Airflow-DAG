@@ -1,0 +1,34 @@
+[2023-03-16T23:58:10.120+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task manual__2023-03-16T23:53:07.648993+00:00 [queued]>
+[2023-03-16T23:58:10.131+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task manual__2023-03-16T23:53:07.648993+00:00 [queued]>
+[2023-03-16T23:58:10.131+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T23:58:10.132+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-03-16T23:58:10.132+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T23:58:10.148+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): bash_task> on 2023-03-16 23:53:07.648993+00:00
+[2023-03-16T23:58:10.156+0000] {standard_task_runner.py:55} INFO - Started process 16299 to run task
+[2023-03-16T23:58:10.159+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'First_DAG', 'bash_task', 'manual__2023-03-16T23:53:07.648993+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmpaxtnrpw6']
+[2023-03-16T23:58:10.160+0000] {standard_task_runner.py:83} INFO - Job 27: Subtask bash_task
+[2023-03-16T23:58:10.226+0000] {task_command.py:388} INFO - Running <TaskInstance: First_DAG.bash_task manual__2023-03-16T23:53:07.648993+00:00 [running]> on host e831dd1240d3
+[2023-03-16T23:58:10.323+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=First_DAG
+AIRFLOW_CTX_TASK_ID=bash_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T23:53:07.648993+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T23:53:07.648993+00:00
+[2023-03-16T23:58:10.328+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-16T23:58:10.331+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "echo'command executed from Bash Operator'"]
+[2023-03-16T23:58:10.347+0000] {subprocess.py:86} INFO - Output:
+[2023-03-16T23:58:10.348+0000] {subprocess.py:93} INFO - /bin/bash: line 1: echocommand executed from Bash Operator: command not found
+[2023-03-16T23:58:10.349+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-03-16T23:58:10.361+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-03-16T23:58:10.365+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=First_DAG, task_id=bash_task, execution_date=20230316T235307, start_date=20230316T235810, end_date=20230316T235810
+[2023-03-16T23:58:10.378+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 27 for task bash_task (Bash command failed. The command returned a non-zero exit code 127.; 16299)
+[2023-03-16T23:58:10.411+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-16T23:58:10.426+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

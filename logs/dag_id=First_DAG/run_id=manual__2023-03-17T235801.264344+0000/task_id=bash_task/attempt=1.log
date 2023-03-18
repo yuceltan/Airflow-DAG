@@ -1,0 +1,28 @@
+[2023-03-17T23:58:02.722+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task manual__2023-03-17T23:58:01.264344+00:00 [queued]>
+[2023-03-17T23:58:02.743+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task manual__2023-03-17T23:58:01.264344+00:00 [queued]>
+[2023-03-17T23:58:02.744+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:58:02.745+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-03-17T23:58:02.746+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:58:02.787+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): bash_task> on 2023-03-17 23:58:01.264344+00:00
+[2023-03-17T23:58:02.801+0000] {standard_task_runner.py:55} INFO - Started process 4367 to run task
+[2023-03-17T23:58:02.814+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'First_DAG', 'bash_task', 'manual__2023-03-17T23:58:01.264344+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmpu2mwf85g']
+[2023-03-17T23:58:02.815+0000] {standard_task_runner.py:83} INFO - Job 49: Subtask bash_task
+[2023-03-17T23:58:02.968+0000] {task_command.py:388} INFO - Running <TaskInstance: First_DAG.bash_task manual__2023-03-17T23:58:01.264344+00:00 [running]> on host 12e59bc4b2cf
+[2023-03-17T23:58:03.137+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=First_DAG
+AIRFLOW_CTX_TASK_ID=bash_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-17T23:58:01.264344+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-17T23:58:01.264344+00:00
+[2023-03-17T23:58:03.140+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-17T23:58:03.141+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "COMMAND IS EXECUTED"']
+[2023-03-17T23:58:03.161+0000] {subprocess.py:86} INFO - Output:
+[2023-03-17T23:58:03.164+0000] {subprocess.py:93} INFO - COMMAND IS EXECUTED
+[2023-03-17T23:58:03.165+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-17T23:58:03.219+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=First_DAG, task_id=bash_task, execution_date=20230317T235801, start_date=20230317T235802, end_date=20230317T235803
+[2023-03-17T23:58:03.267+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-17T23:58:03.325+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,23 @@
+[2023-03-17T23:38:52.215+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: market_data_alphavantage_dag.first_python_dag manual__2023-03-17T23:38:50.458171+00:00 [queued]>
+[2023-03-17T23:38:52.231+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: market_data_alphavantage_dag.first_python_dag manual__2023-03-17T23:38:50.458171+00:00 [queued]>
+[2023-03-17T23:38:52.232+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:38:52.233+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-03-17T23:38:52.234+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:38:52.261+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): first_python_dag> on 2023-03-17 23:38:50.458171+00:00
+[2023-03-17T23:38:52.269+0000] {standard_task_runner.py:55} INFO - Started process 2544 to run task
+[2023-03-17T23:38:52.273+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'market_data_alphavantage_dag', 'first_python_dag', 'manual__2023-03-17T23:38:50.458171+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/third.py', '--cfg-path', '/tmp/tmp0t7zsxh_']
+[2023-03-17T23:38:52.275+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask first_python_dag
+[2023-03-17T23:38:52.416+0000] {task_command.py:388} INFO - Running <TaskInstance: market_data_alphavantage_dag.first_python_dag manual__2023-03-17T23:38:50.458171+00:00 [running]> on host 12e59bc4b2cf
+[2023-03-17T23:38:52.551+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=market_data_alphavantage_dag
+AIRFLOW_CTX_TASK_ID=first_python_dag
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-17T23:38:50.458171+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-17T23:38:50.458171+00:00
+[2023-03-17T23:38:53.188+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-17T23:38:53.203+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=market_data_alphavantage_dag, task_id=first_python_dag, execution_date=20230317T233850, start_date=20230317T233852, end_date=20230317T233853
+[2023-03-17T23:38:53.250+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-17T23:38:53.276+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

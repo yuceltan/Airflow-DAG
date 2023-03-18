@@ -1,0 +1,34 @@
+[2023-03-17T23:27:02.081+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task_move manual__2023-03-17T23:26:56.996520+00:00 [queued]>
+[2023-03-17T23:27:02.092+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: First_DAG.bash_task_move manual__2023-03-17T23:26:56.996520+00:00 [queued]>
+[2023-03-17T23:27:02.093+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:27:02.094+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-03-17T23:27:02.095+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T23:27:02.113+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): bash_task_move> on 2023-03-17 23:26:56.996520+00:00
+[2023-03-17T23:27:02.118+0000] {standard_task_runner.py:55} INFO - Started process 1398 to run task
+[2023-03-17T23:27:02.121+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'First_DAG', 'bash_task_move', 'manual__2023-03-17T23:26:56.996520+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmp0o58spz5']
+[2023-03-17T23:27:02.122+0000] {standard_task_runner.py:83} INFO - Job 15: Subtask bash_task_move
+[2023-03-17T23:27:02.198+0000] {task_command.py:388} INFO - Running <TaskInstance: First_DAG.bash_task_move manual__2023-03-17T23:26:56.996520+00:00 [running]> on host 12e59bc4b2cf
+[2023-03-17T23:27:02.379+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=First_DAG
+AIRFLOW_CTX_TASK_ID=bash_task_move
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-17T23:26:56.996520+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-17T23:26:56.996520+00:00
+[2023-03-17T23:27:02.383+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-17T23:27:02.385+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cp /Users/yucel/Data_Center/Data Lake/dataset_raw.txt  /Users/yucel/Data_Center/Clean Data']
+[2023-03-17T23:27:02.404+0000] {subprocess.py:86} INFO - Output:
+[2023-03-17T23:27:02.412+0000] {subprocess.py:93} INFO - cp: target 'Data' is not a directory
+[2023-03-17T23:27:02.414+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-03-17T23:27:02.439+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-03-17T23:27:02.448+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=First_DAG, task_id=bash_task_move, execution_date=20230317T232656, start_date=20230317T232702, end_date=20230317T232702
+[2023-03-17T23:27:02.476+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 15 for task bash_task_move (Bash command failed. The command returned a non-zero exit code 1.; 1398)
+[2023-03-17T23:27:02.495+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-17T23:27:02.532+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
